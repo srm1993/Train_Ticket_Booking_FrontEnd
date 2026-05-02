@@ -1,0 +1,59 @@
+.route-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #1e293b;
+}
+.route-card{
+    background: #04fffb;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+}
+.route-card h2{
+    text-align: center;
+}
+.route-card form{
+    display: flex;
+    flex-direction: column;
+}
+.route-card label{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.route-card input,
+.route-card select{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #1e293b;
+    color: white;
+}
+.route-card input::placeholder{
+    color: white;
+}
+.route-card button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background:#1e293b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.3s;
+}
+.route-card
+input:hover,
+select:hover,
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #6366f1;
+}

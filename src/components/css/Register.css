@@ -1,0 +1,68 @@
+/* Full Background */
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+}
+
+/* Glass Card */
+.register-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    width: 380px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    color: white;
+}
+
+.register-card h2 {
+    margin-bottom: 8px;
+}
+
+.register-card p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    opacity: 0.85;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Dropdown Style */
+.input-group select {
+    background: white;
+    color: #333;
+}
+
+/* Button */
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #6366f1;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background: #e5e7eb;
+}

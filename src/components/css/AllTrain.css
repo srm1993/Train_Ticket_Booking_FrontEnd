@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#1a2a6c,#0f2027,#203a43);
+    min-height:100vh;
+}
+
+.trainContainer{
+    padding:40px;
+}
+
+.title{
+    text-align:center;
+    color:white;
+    margin-bottom:40px;
+    font-size:38px;
+}
+
+.trainGrid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+    gap:30px;
+}
+
+.trainCard{
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:25px;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    transition:0.4s;
+    overflow:hidden;
+}
+
+.trainCard:hover{
+    transform:translateY(-8px);
+}
+
+.trainNumber{
+    opacity:0.8;
+}
+
+.trainType{
+    opacity:0.9;
+}
+
+.trainDate{
+    margin-top:5px;
+    color:#ffd369;
+    font-weight:500;
+}
+
+.route{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin:15px 0;
+}
+
+.arrow{
+    font-size:20px;
+}
+
+.seatContainer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+
+.seatBox{
+    background:rgba(255,255,255,0.18);
+    padding:12px;
+    border-radius:12px;
+    width:48%;
+}
+
+.seatBox h4{
+    margin-bottom:6px;
+}
+
+.schedule{
+    margin-top:20px;
+    width:100%;
+    overflow-x:auto;
+}
+
+.schedule table{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+.schedule th,
+.schedule td{
+    border-bottom:1px solid rgba(255,255,255,0.3);
+    padding:8px;
+    text-align:center;
+    word-wrap:break-word;
+}
+
+.schedule th{
+    color:#ffd369;
+}
