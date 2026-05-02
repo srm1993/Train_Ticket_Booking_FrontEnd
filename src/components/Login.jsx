@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import "../css/SideBar.css";
+import "./css/Login.css";
 import { Navigate } from "react-router-dom";
 function Login() {
     const user = JSON.parse(localStorage.getItem('user'));
