@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "./css/SideBar.css";
+import "../css/SideBar.css";
 
 function SideBar() {
     const user = JSON.parse(localStorage.getItem('user'));
